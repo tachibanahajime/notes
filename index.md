@@ -6,3 +6,4 @@
 - [2021/02/23](https://tachibanahajime.github.io/notes/AWS/20210223_awsnote "2021/02/23")  
 - [2021/02/24](https://tachibanahajime.github.io/notes/AWS/20210224_awsnote "2021/02/24")  
 - [2021/02/28](https://tachibanahajime.github.io/notes/AWS/20210228_awsnote "2021/02/28")  
+- [2021/03/02](https://tachibanahajime.github.io/notes/AWS/20210302_awsnote "2021/03/02")  
