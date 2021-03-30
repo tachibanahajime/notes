@@ -14,3 +14,4 @@
 - [2021/03/25](https://tachibanahajime.github.io/notes/AWS/20210325_awsnote "2021/03/25")  
 - [2021/03/28](https://tachibanahajime.github.io/notes/AWS/20210328_awsnote "2021/03/28")  
 - [2021/03/29](https://tachibanahajime.github.io/notes/AWS/20210329_awsnote "2021/03/29")  
+- [2021/03/30](https://tachibanahajime.github.io/notes/AWS/20210329_awsnote "2021/03/30")  
