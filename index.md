@@ -19,5 +19,8 @@
 - [2021/05/11](https://tachibanahajime.github.io/notes/AWS/20210511_awsnote "2021/05/11")  
 - [2021/05/12](https://tachibanahajime.github.io/notes/AWS/20210512_awsnote "2021/05/12")  
 
+## AWS  DataLake  
+- [2021/06/21](https://tachibanahajime.github.io/notes/AWS/20210621_aws_datalake "2021/06/21")  
+
 ## セミナー  
 - [2021/05/24　flier book laboオープントークセッション](https://tachibanahajime.github.io/notes/セミナー/20210524_seminar "2021/05/24")  
