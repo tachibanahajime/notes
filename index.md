@@ -19,7 +19,7 @@
 - [2021/05/11](https://tachibanahajime.github.io/notes/AWS/20210511_awsnote "2021/05/11")  
 - [2021/05/12](https://tachibanahajime.github.io/notes/AWS/20210512_awsnote "2021/05/12")  
 
-## AWS  DataLake  
+## AWS DataLake  
 - [2021/06/21](https://tachibanahajime.github.io/notes/AWS/20210621_aws_datalake "2021/06/21")  
 
 ## セミナー  
