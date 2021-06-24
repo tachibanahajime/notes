@@ -18,7 +18,7 @@ Alan Simon
 <br>
 
 ## 内容
-### Section 3 : Data Warehousing Architecture
+## Section 3 : Data Warehousing Architecture
 - Data Warehouseのパターン  
   ![](./images/DataWarehouseFundamentalsforBeginners_20210624_1.png)  
 
@@ -32,3 +32,15 @@ Alan Simon
   ![](./images/DataWarehouseFundamentalsforBeginners_20210624_4.png)  
 <br>
 
+## Section 4 : Bring Data Into Your Data Warehouse  
+- ETL Transformation Models  
+  ![](./images/DataWarehouseFundamentalsforBeginners_20210624_5.png)  
+  - Data Value Unification：値の統一（コード変換など）
+  - Data Type and Size Unification：データ型・データ桁数の統一
+  - De-duplication：重複データの排除
+  - Dropping Columns (vertical slicing)：不要カラムの削除（分析に使わないカラムの排除）
+  - Value-based Row Filtering (horizontal slicing)：不要データの削除（分析に使わないデータの排除）
+  - Correcting Known Errors：データクレンジング（不適切なデータの修正）  
+<br>
+
+## Section 5 : Data Warehousing Design: Building Blocks  
