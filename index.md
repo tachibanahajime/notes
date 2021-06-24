@@ -23,5 +23,8 @@
 - [2021/06/21](https://tachibanahajime.github.io/notes/AWS/20210621_aws_datalake "2021/06/21")  
 - [2021/06/22](https://tachibanahajime.github.io/notes/AWS/20210622_aws_datalake "2021/06/22")  
 
+## Udemy  
+- [Data Warehouse Fundamentals for Beginners](https://tachibanahajime.github.io/notes/Udemy/DataWarehouseFundamentalsforBeginners "Data Warehouse Fundamentals for Beginners")  
+
 ## セミナー  
-- [2021/05/24　flier book laboオープントークセッション](https://tachibanahajime.github.io/notes/セミナー/20210524_seminar "2021/05/24")  
+- [2021/05/24　flier book laboオープントークセッション](https://tachibanahajime.github.io/notes/セミナー/20210524_seminar "2021/05/24　flier book laboオープントークセッション")  

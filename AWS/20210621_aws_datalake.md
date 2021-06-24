@@ -4,7 +4,7 @@ date: 2021-06-21
 tags:
   - Study
   - AWS
-  - DataLake
+  - Data Lake
 ---
 # 第6章　データを可視化する  
 ## Amazon QuickSight  

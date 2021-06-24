@@ -4,7 +4,7 @@ date: 2021-06-22
 tags:
   - Study
   - AWS
-  - DataLake
+  - Data Lake
 ---
 # 第7章　サーバレスSQLによるデータ分析  
 - Amazon Athena  
