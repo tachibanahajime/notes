@@ -44,3 +44,27 @@ Alan Simon
 <br>
 
 ## Section 5 : Data Warehousing Design: Building Blocks  
+- Star Schema vs. Snowflake Schema
+  ![](./images/DataWarehouseFundamentalsforBeginners_20210625_1.png)  
+  ![](./images/DataWarehouseFundamentalsforBeginners_20210625_2.png)  
+  - Star SchemaもSnowflake Schemaも元データの次元は同じ。  
+  （例：製品ファミリー 1..N 製品カテゴリー 1..N 製品名）
+    - Star Schema：製品ファミリー・製品カテゴリー・製品名をすべて同じテーブルに持つ（正規化を崩す）  
+    - Snowflake Schema：製品ファミリー・製品カテゴリー・製品名はそれぞれ別のテーブルで持つ（正規化を残す）  
+  
+- Data Warehouseing and Natural Keys  
+  ![](./images/DataWarehouseFundamentalsforBeginners_20210625_3.png)  
+
+- Foundational Conepts
+  ![](./images/DataWarehouseFundamentalsforBeginners_20210625_4.png)  
+<br>
+
+## Section 6 : Design Facts, Fact Tables, Dimensions, and Dimension Tables  
+- Snowflake Schema PK-FK Rules
+  ![](./images/DataWarehouseFundamentalsforBeginners_20210625_5.png)  
+  ![](./images/DataWarehouseFundamentalsforBeginners_20210625_6.png)  
+
+- Fact Table Types
+  ![](./images/DataWarehouseFundamentalsforBeginners_20210625_7.png)  
+
+
