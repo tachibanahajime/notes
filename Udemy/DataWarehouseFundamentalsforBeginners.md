@@ -64,7 +64,17 @@ Alan Simon
   ![](./images/DataWarehouseFundamentalsforBeginners_20210625_5.png)  
   ![](./images/DataWarehouseFundamentalsforBeginners_20210625_6.png)  
 
+  - Fact TableとDimension TableのRelationはSurrogate Keyを使って定義する。  
+  - Fact Tableが持つNatural Keyを使えばレコードを一意に特定することはできるが、Dimension TableheへのForeign Keyとしては利用しない。  
+  ![](./images/DataWarehouseFundamentalsforBeginners_20210625_7.png)
+
 - Fact Table Types
-  ![](./images/DataWarehouseFundamentalsforBeginners_20210625_7.png)  
+  ![](./images/DataWarehouseFundamentalsforBeginners_20210625_8.png)  
 
-
+  - Transaction：特定のトランザクションを管理する（授業料支払トランザクションなど）
+  ![](./images/DataWarehouseFundamentalsforBeginners_20210625_9.png)  
+  - Periodic Snapshot：トランザクションの定期的な履歴を管理する（毎週のミールカード利用履歴など）
+  ![](./images/DataWarehouseFundamentalsforBeginners_20210625_10.png)  
+  - Accumulation Snapshot：あるトランザクションの時間軸での変化を管理する（奨学金審査の進捗状況など）
+  ![](./images/DataWarehouseFundamentalsforBeginners_20210625_11.png)  
+  - Factless：
