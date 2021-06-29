@@ -66,6 +66,7 @@ Alan Simon
 
   - Fact TableとDimension TableのRelationはSurrogate Keyを使って定義する。  
   - Fact Tableが持つNatural Keyを使えばレコードを一意に特定することはできるが、Dimension TableheへのForeign Keyとしては利用しない。  
+    - Surrogate KeyをPKとして使っておけば、Type 2(後述)のデータ履歴管理がしやすくなる。  
   ![](./images/DataWarehouseFundamentalsforBeginners_20210625_7.png)
 
 - Fact Table Types
@@ -77,4 +78,27 @@ Alan Simon
   ![](./images/DataWarehouseFundamentalsforBeginners_20210625_10.png)  
   - Accumulation Snapshot：あるトランザクションの時間軸での変化を管理する（奨学金審査の進捗状況など）
   ![](./images/DataWarehouseFundamentalsforBeginners_20210625_11.png)  
-  - Factless：
+  - Factless(1)：集計データを持たないトランザクションを管理する（ウェビナーの受講記録など）
+  ![](./images/DataWarehouseFundamentalsforBeginners_20210629_1.png)  
+  - Factless(2)：トランザクションが無いディメンション同士の関係を管理する（学生アドバンザーのアサイン履歴など）
+  ![](./images/DataWarehouseFundamentalsforBeginners_20210629_2.png)  
+<br>
+
+## Section 7 : Managing Data Warehouse History Through Slowly Changing Dimensions  
+- Slowly Changing Dimentions(SCDs)  
+  - Data Warehouse内でのデータ履歴管理の考え方  
+  ![](./images/DataWarehouseFundamentalsforBeginners_20210629_3.png)  
+
+  - Type 1：古いデータを新しいデータで上書きする履歴管理方式
+    - データの履歴を保持する必要が無い場合に利用（エラーデータを修正する場合など）
+    - ただデータをUpdateすればよいので、アーキテクチャが最もシンプル。
+  - Type 2：新しいレコードを新たな行として追加する履歴管理方式
+    - 複数行のデータを履歴として保持する必要がある場合に利用（学生の転居履歴を管理する場合など）
+    - Effective Date（有効開始日）, Expiration Date（有効終了日）, Current Flag（有効フラグ）を持たせることで、現在どのデータが有効かを管理することができる。
+  - Type 3：新旧のデータを別の列で管理する履歴管理方式
+    - 新旧のデータを同一行で管理したい場合に利用（支店統合前後の従業員の所属店舗情報を管理する場合など）
+    - Current Value（新データ）とOld Value（旧データ）を同一行に保持することで、新旧どちらの切り口でデータを分析する場合にも対応しやすい。  
+<br>
+
+## Section 8 : Designing Your ETL  
+  
