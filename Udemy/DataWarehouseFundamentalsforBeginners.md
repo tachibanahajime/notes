@@ -101,4 +101,10 @@ Alan Simon
 <br>
 
 ## Section 8 : Designing Your ETL  
-  
+- ETL best practices and guidelines  
+  ![](./images/DataWarehouseFundamentalsforBeginners_20210712_1.png)  
+- 変更データ追跡のテクニック  
+  - タイムスタンプ比較：データのタイムスタンプが前回のETL実行時間以降のものを連携する  
+  - データベースログ：データベースのログを参照し、前回のETL実行時間以降の変更を連携する  
+  - データベーススキャン：データベースとDWHの全データをスキャンし、差分を抽出して連携する  
+<br>
