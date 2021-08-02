@@ -25,6 +25,7 @@
 
 ## Udemy  
 - [Data Warehouse Fundamentals for Beginners](https://tachibanahajime.github.io/notes/Udemy/DataWarehouseFundamentalsforBeginners "Data Warehouse Fundamentals for Beginners")  
+- [手を動かして学ぶプロダクトデザイン入門！](https://tachibanahajime.github.io/notes/Udemy/手を動かして学ぶプロダクトデザイン入門！ "手を動かして学ぶプロダクトデザイン入門！")  
 
 ## セミナー  
 - [2021/05/24　flier book laboオープントークセッション](https://tachibanahajime.github.io/notes/セミナー/20210524_seminar "2021/05/24　flier book laboオープントークセッション")  
