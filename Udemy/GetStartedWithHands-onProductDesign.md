@@ -51,13 +51,13 @@ tags:
 
 - テクニック3：Business Model Canvas（収束）  
   - ビジネスアイデアに対して9つのフレームを埋めることで全体像を把握する手法  
-  ![](./images/手を動かして学ぶプロダクトデザイン入門！_20210802_1.png)  
+  ![](./images/GetStartedWithHands-onProductDesign_20210802_1.png)  
   - まずはCSとVPを固める  
   - 書くときにあまり時間をかけない  
     - うまく書けない＝HMWが良くない可能性がある  
     - 複数のHMWに対してBusiness Model Canvasを書いて比較することも必要  
   - 課題回答  
-  ![](./images/手を動かして学ぶプロダクトデザイン入門！_20210802_2.png)  
+  ![](./images/GetStartedWithHands-onProductDesign_20210802_2.png)  
   
 - テクニック4：Solution Sketch（発散）  
   - ソリューションの内容を絵で表現する  
@@ -83,4 +83,3 @@ tags:
 
 ## 参考
 - [Google Design Sprints](https://designsprintkit.withgoogle.com/)  
-- 
