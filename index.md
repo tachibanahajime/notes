@@ -31,3 +31,4 @@
 - [2021/05/24　flier book laboオープントークセッション](https://tachibanahajime.github.io/notes/セミナー/20210524_seminar "2021/05/24　flier book laboオープントークセッション")  
 - [2021/07/15　Elasticsearch 入門](https://tachibanahajime.github.io/notes/セミナー/20210715_Elasticsearch入門 "2021/07/15　Elasticsearch 入門")  
 - [2021/07/19　Elastic on Microsoft Azure](https://tachibanahajime.github.io/notes/セミナー/20210719_ElasticOnMicrosoftAzure "2021/07/19　Elastic on Microsoft Azure")  
+- [2021/08/21　未来の先生フォーラム2021記念対談](https://tachibanahajime.github.io/notes/セミナー/20210821_mirai-sensei2021 "2021/08/21　未来の先生フォーラム2021記念対談")  
